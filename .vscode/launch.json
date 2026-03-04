@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run HelloSFML (Debug)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/Build/Debug/HelloSFML",
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal",
+            "preLaunchTask": "${defaultBuildTask}"
+        }
+    ]
+}
