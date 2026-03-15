@@ -9,6 +9,16 @@
             "cwd": "${workspaceRoot}",
             "console": "integratedTerminal",
             "preLaunchTask": "${defaultBuildTask}"
+        },
+        {
+   
+            "name": "Run HelloSFML (Debug) Linux",
+            "type": "cppdbg",
+            "MIMode": "gdb",
+            "request": "launch",
+            "program": "${workspaceRoot}/Build/HelloSFML",
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "${defaultBuildTask}"
         }
     ]
 }
