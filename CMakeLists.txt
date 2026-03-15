@@ -14,6 +14,6 @@ FetchContent_MakeAvailable(SFML)
 
 
 
-add_executable(HelloSFML Main.cpp)
+add_executable(HelloSFML Main.cpp Application.cpp)
 
 target_link_libraries(HelloSFML PRIVATE SFML::Graphics)
